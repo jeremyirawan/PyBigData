@@ -5,6 +5,7 @@ from tweepy import OAuthHandler
 from tweepy.streaming import StreamListener
 import json
 
+# You must first create an APP on https://apps.twitter.com/ and request for an access token / token secret
 consumer_key = '__YOUR_CONSUMER_KEY__'
 consumer_secret = '__YOUR_CONSUMER_SECRET_KEY__'
 atoken = '__YOUR_ACCESS_TOKEN__'
