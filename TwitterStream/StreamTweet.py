@@ -5,10 +5,10 @@ from tweepy import OAuthHandler
 from tweepy.streaming import StreamListener
 import json
 
-consumer_key = 'yZTcDgv4wbRFEdfsC4Wh8IY6C'
-consumer_secret = 'JBV5C2pVcghMrd9D1wlP9EqERhZmu1lv9MAcRTuITYxNdGooB4'
-atoken = '25921543-FtURCQBXj1cHtLiJUjIgQL3RdcEnvWamNbHkCv0Ef'
-asecret = '9GuYGsddfH37m9cAqC4R4c2qxPC0SxYfJgIkeoGAoTfx7'
+consumer_key = '__YOUR_CONSUMER_KEY__'
+consumer_secret = '__YOUR_CONSUMER_SECRET_KEY__'
+atoken = '__YOUR_ACCESS_TOKEN__'
+asecret = '__YOUR_ACCESS_TOKEN_SECRET__'
 
 class listener(StreamListener):
 
